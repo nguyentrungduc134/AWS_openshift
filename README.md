@@ -8,6 +8,7 @@ This guide provides step-by-step instructions for installing OKD on AWS . The pr
 ## **1. Preparation**
 
 ### **a. Architecture Diagram**
+[guide video](https://drive.google.com/file/d/1OkwFZXbm6S-_EgDzJxxW4OagqVKYA7-L/view?usp=drive_link)
 ![image](https://github.com/user-attachments/assets/fc97f2ec-c767-4f62-9a0c-7e83455da7d9)
 
 
