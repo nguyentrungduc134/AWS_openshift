@@ -51,12 +51,6 @@ Ensure the following prerequisites are fulfilled before proceeding:
 
 ---
 
-Here's an updated section for **DNS Configuration**, considering the use of Route 53 for the public hosted zone without registering the domain name upfront and later migrating to a different provider:
-
----
-
-#### **DNS Configuration**
-
 For OKD installation on AWS, a domain is required for accessing the cluster. You can use **Amazon Route 53** to create a public hosted zone for DNS management. Here's how to handle this setup:
 
 1. **Public Hosted Zone without Domain Registration**  
