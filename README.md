@@ -8,12 +8,8 @@ This guide provides step-by-step instructions for installing OKD on AWS using a 
 ## **1. Preparation**
 
 ### **a. Architecture Diagram**
-Include a clear architecture diagram to visualize the AWS infrastructure required for OKD installation. The diagram should illustrate:
+![Uploading image.png…]()
 
-- VPC with public and private subnets.
-- Load Balancers for control-plane and compute nodes.
-- Instances for the bootstrap, control-plane (master), and worker nodes.
-- Associated security groups, IAM roles, and DNS configurations.
 
 ---
 
