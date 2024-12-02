@@ -48,7 +48,37 @@ Ensure the following prerequisites are fulfilled before proceeding:
    ```
 
 3. **DNS Configuration**  
-   Set up your domain to point to AWS load balancers for the API and applications. Update records in your external DNS provider as needed.
+ Here's an updated section for **DNS Configuration**, considering the use of Route 53 for the public hosted zone without registering the domain name upfront and later migrating to a different provider:
+
+---
+
+#### **DNS Configuration**
+
+      For OKD installation on AWS, a domain is required for accessing the cluster. You can use **Amazon Route 53** to create a public hosted zone for DNS management. Here's how to handle this setup:
+      
+      1. **Public Hosted Zone without Domain Registration**  
+         - Create a public hosted zone in Route 53 for the desired domain name (e.g., `mydomain.com`), even if the domain is not yet registered.  
+         - The hosted zone allows you to create DNS records that point to AWS resources (such as load balancers for the OKD API and ingress router).  
+         - When ready, you can later transfer the domain to another DNS provider and update its nameservers to match those provided by Route 53.
+      
+      2. **Setup API and App DNS Records**  
+         - Add DNS `A` or `CNAME` records for the API server and application router.
+         - Example records:
+           - `api.mydomain.com` → Points to the load balancer for the API server.
+           - `*.apps.mydomain.com` → Points to the load balancer for ingress router.
+      
+      3. **Route 53 Pricing**  
+         - **Hosted Zone Cost**: $0.50 per hosted zone per month.  
+         - **Query Cost**: $0.40 per million queries for the first billion queries.  
+           Pricing details: [Route 53 Pricing](https://aws.amazon.com/route53/pricing/)
+      
+      4. **Switching to Another DNS Provider**  
+         - When migrating the domain to another provider, update the domain's nameservers to point to the new provider.
+         - Export DNS records from Route 53 and import them into the new DNS service for a seamless transition.
+
+---
+
+Would you like me to include detailed steps for creating a hosted zone or adding specific DNS records in Route 53?
 
 4. **Prepare Ignition Configuration**  
    - Generate manifests and ignition files using the `openshift-install` binary.
