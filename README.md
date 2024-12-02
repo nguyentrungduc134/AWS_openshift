@@ -75,19 +75,9 @@ For OKD installation on AWS, a domain is required for accessing the cluster. You
 
 ---
 
-Would you like me to include detailed steps for creating a hosted zone or adding specific DNS records in Route 53?
-
----
-
-Would you like me to include detailed steps for creating a hosted zone or adding specific DNS records in Route 53?
-
-4. **Prepare Ignition Configuration**  
-   - Generate manifests and ignition files using the `openshift-install` binary.
-   - Modify configurations if customizations are required for your setup.
-
 Detailed Steps:  
 [Preparing to Install on AWS UPI](https://docs.okd.io/4.17/installing/installing_aws/upi/upi-aws-preparing-to-install.html)
 
 ---
 
-Let me know if you'd like sections for deployment, troubleshooting, or automating tasks!
+
