@@ -8,7 +8,7 @@ This guide provides step-by-step instructions for installing OKD on AWS . The pr
 ## **1. Preparation**
 
 ### **a. Architecture Diagram**
-[guide video](https://drive.google.com/file/d/1OkwFZXbm6S-_EgDzJxxW4OagqVKYA7-L/view?usp=drive_link)
+[Guide Video](https://drive.google.com/file/d/1OkwFZXbm6S-_EgDzJxxW4OagqVKYA7-L/view?usp=drive_link)
 ![image](https://github.com/user-attachments/assets/fc97f2ec-c767-4f62-9a0c-7e83455da7d9)
 
 
@@ -26,7 +26,7 @@ Refer to the official OKD documentation for installation requirements:
 
 ### **c. Prerequisites**
 Ensure the following prerequisites are fulfilled before proceeding:
-
+[Guide Video](https://drive.google.com/file/d/17tcAPOAGClh49r-ny2C1nPx8P7FnNI1r/view?usp=drive_link)
 1. **Install Required Tools**  
    Follow these guides to install the necessary tools:
 
