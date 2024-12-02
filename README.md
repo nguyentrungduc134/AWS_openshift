@@ -1,8 +1,5 @@
-Here’s the updated **README.md**, including links to install `oc`, `kubectl`, Terraform, and AWS CLI:
 
----
-
-# OKD Installation on AWS (User-Provisioned Infrastructure)
+# OKD Installation on AWS 
 
 This guide provides step-by-step instructions for installing OKD on AWS using a User-Provisioned Infrastructure (UPI). The process follows the official OKD 4.17 documentation.
 
