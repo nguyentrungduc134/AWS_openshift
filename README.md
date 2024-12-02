@@ -1,7 +1,7 @@
 
 # OKD Installation on AWS 
 
-This guide provides step-by-step instructions for installing OKD on AWS using a User-Provisioned Infrastructure (UPI). The process follows the official OKD 4.17 documentation.
+This guide provides step-by-step instructions for installing OKD on AWS . The process follows the official OKD 4.17 documentation.
 
 ---
 
